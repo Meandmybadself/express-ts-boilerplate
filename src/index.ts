@@ -1,6 +1,6 @@
 console.log(`API ${process.env.ENV}`);
 
-import initSequelize from "./sequelize"; // eslint-disable-line @typescript-eslint/no-unused-vars
+import initSequelize from "./sequelize";
 import { initExpress } from "./express";
 
 (async () => {
